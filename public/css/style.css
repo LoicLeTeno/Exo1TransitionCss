@@ -103,7 +103,19 @@ section:nth-of-type(10) {
 
 
 /* début exo 07 les transitions */
+.transition_07 {
+    background-color: green;
+    
+    width: 50px;
+    height: 150px;
 
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.transition_07:active {
+    margin: 80%;
+}
 /* fin exo 07 les transitions */
 
 
