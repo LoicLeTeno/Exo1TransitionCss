@@ -146,7 +146,25 @@ background-color: purple;
 
 
 /* début exo 09 les transitions */
+.transition_09 {
+    background-color: blue;
 
+    width: 150px;
+    height: 150px;
+}
+
+.transition_09_enfant {
+    background-color: lightblue;
+
+    width: 20%;
+    height: 20%;
+
+    transition-duration: 3s;
+}
+
+.transition_09:active .transition_09_enfant {
+    background-color: red;
+}
 /* fin exo 09 les transitions */
 
 
