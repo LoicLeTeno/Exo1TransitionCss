@@ -17,11 +17,23 @@ section:nth-of-type(10) {
 
 .bg-color:hover {
     background-color: purple;
+
+    transition-duration: 2s;
 }
 /* fin exo 01 les_hover_01 */
+.height_and_width {
+    background-color: lightblue;
 
+    width: 150px;
+    height: 150px;
+}
 
+.height_and_width:hover {
+    width: 500px;
+    height: 200px;
 
+    transition-duration: 2s;
+}
 /* début exo 02 les_hover_02 */
 
 /* fin exo 02 les_hover_02 */
