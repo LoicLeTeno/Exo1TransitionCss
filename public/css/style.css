@@ -1,6 +1,23 @@
+section {
+    border-bottom: solid blue;
+    padding-bottom: 50px;
+}
+
+section:nth-of-type(10) {
+    border-bottom: none;
+}
 
 /* début exo 01 les_hover_01 */
+.bg-color {
+    background-color: lightblue;
 
+    width: 150px;
+    height: 150px;
+}
+
+.bg-color:hover {
+    background-color: purple;
+}
 /* fin exo 01 les_hover_01 */
 
 
