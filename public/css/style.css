@@ -7,6 +7,8 @@ section:nth-of-type(10) {
     border-bottom: none;
 }
 
+
+
 /* début exo 01 les_hover_01 */
 .bg-color {
     background-color: lightblue;
@@ -17,10 +19,12 @@ section:nth-of-type(10) {
 
 .bg-color:hover {
     background-color: purple;
-
-    transition-duration: 2s;
 }
 /* fin exo 01 les_hover_01 */
+
+
+
+/* début exo 02 les_hover_02 */
 .height_and_width {
     background-color: lightblue;
 
@@ -31,27 +35,33 @@ section:nth-of-type(10) {
 .height_and_width:hover {
     width: 500px;
     height: 200px;
-
-    transition-duration: 2s;
-}
-/* début exo 02 les_hover_02 */
-.border_color:focus {
-    border: solid blue;
-    border-radius: 10px;
 }
 /* fin exo 02 les_hover_02 */
 
 
 
 /* début exo 03 les_focus_03 */
-
-
+.border_color:focus {
+    border: solid blue;
+    border-radius: 10px;
+}
 /* fin exo 03 les_focus_03 */
 
 
 
 /* début exo 04 les transitions */
+.transition_04 {
+    background-color: yellow;
 
+    width: 150px;
+    height: 150px;
+
+    transition-duration: 4s;
+}
+
+.transition_04:hover {
+    background-color: red;
+}
 /* fin exo 04 les transitions */
 
 
