@@ -35,7 +35,10 @@ section:nth-of-type(10) {
     transition-duration: 2s;
 }
 /* début exo 02 les_hover_02 */
-
+.border_color:focus {
+    border: solid blue;
+    border-radius: 10px;
+}
 /* fin exo 02 les_hover_02 */
 
 
