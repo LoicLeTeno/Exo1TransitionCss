@@ -96,7 +96,7 @@ section:nth-of-type(10) {
 }
 
 .transition_06:active {
-    margin: 300px;
+    margin-left: 300px;
 }
 /* fin exo 06 les transitions */
 
@@ -114,13 +114,32 @@ section:nth-of-type(10) {
 }
 
 .transition_07:active {
-    margin: 80%;
+    margin-left: 80%;
 }
 /* fin exo 07 les transitions */
 
 
 
 /* début exo 08 les transitions */
+.transition_08 {
+    background-color: lightblue;
+    
+    width: 50px;
+    height: 150px;
+
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.transition_08:active {
+background-color: purple;
+
+    margin-left: 80%;
+
+    height: 50px;
+
+    border-radius: 50%;
+}
 
 /* fin exo 08 les transitions */
 
