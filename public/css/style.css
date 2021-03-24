@@ -170,6 +170,41 @@ background-color: purple;
 
 
 /* début exo 10 les transitions */
+.transition_10 {
+background-color: yellow;
 
+width: 150px;
+height: 150px;
+
+transition-duration: 3s;
+transition-timing-function: ease;
+}
+
+.transition_10_intrus {
+background-color: lightblue;
+
+width: 30%;
+height: 30%;
+
+border-radius: 50%;
+
+transition-duration: 3s;
+}
+
+.transition_10:active .transition_10_intrus {
+    background-color: blue;
+
+    margin-left: 100%;
+
+    border-radius: 0%;
+}
+
+.transition_10:active {
+    background-color: orange;
+
+    margin-left: 80%;
+
+    border-radius: 50%;
+}
 /* fin exo 10 les transitions */
 
